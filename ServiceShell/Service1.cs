@@ -31,37 +31,53 @@ namespace ServiceShell
                     if (app.Length > 1)
                     {
                         file = app[0].Trim();
-                        arg = app[1].Substring(0, app[1].Length - 1).Trim();
-                        string[] parameters = arg.Split(",".ToCharArray(), StringSplitOptions.RemoveEmptyEntries);
-                        if (parameters.Length > 0)
+                        if (app[1].Length > 1)
                         {
-                            string exeType = parameters[0];
-                            Command cmd = new Command();
-                            int type = 0;
-                            if (int.TryParse(exeType, out type))
+                            arg = app[1].Substring(0, app[1].Length - 1).Trim();
+                            string[] parameters = arg.Split(",".ToCharArray(), StringSplitOptions.RemoveEmptyEntries);
+                            if (parameters.Length > 0)
                             {
-                                if (type == 0)
+                                string exeType = parameters[0];
+                                Command cmd = new Command();
+                                int type = 0;
+                                if (int.TryParse(exeType, out type))
                                 {
-                                    if (parameters.Length > 1)
+                                    if (type == 0)
                                     {
-                                        string start = parameters[1];
-                                        cmd.RunCmd(file + " " + start);
+                                        if (parameters.Length > 1)
+                                        {
+                                            string start = parameters[1];
+                                            cmd.RunCmd(file + " " + start);
+                                        }
+                                        else
+                                        {
+                                            cmd.RunCmd(file);
+                                        }
+                                    }
+                                    else if (type == 1)
+                                    {
+                                        cmd.Singleton = true;
+                                        if (parameters.Length > 1)
+                                        {
+                                            string start = parameters[1];
+                                            cmd.RunProgram(file, start);
+                                        }
+                                        else
+                                        {
+                                            cmd.RunProgram(file);
+                                        }
                                     }
                                     else
                                     {
-                                        cmd.RunCmd(file);
-                                    }
-                                }
-                                else
-                                {
-                                    if (parameters.Length > 1)
-                                    {
-                                        string start = parameters[1];
-                                        cmd.RunProgram(file, start);
-                                    }
-                                    else
-                                    {
-                                        cmd.RunProgram(file);
+                                        if (parameters.Length > 1)
+                                        {
+                                            string start = parameters[1];
+                                            cmd.RunProgram(file, start);
+                                        }
+                                        else
+                                        {
+                                            cmd.RunProgram(file);
+                                        }
                                     }
                                 }
                             }
@@ -90,37 +106,44 @@ namespace ServiceShell
                     if (app.Length > 1)
                     {
                         file = app[0].Trim();
-                        arg = app[1].Substring(0, app[1].Length - 1).Trim();
-                        string[] parameters = arg.Split(",".ToCharArray(), StringSplitOptions.RemoveEmptyEntries);
-                        if (parameters.Length > 0)
+                        if (app[1].Length > 1)
                         {
-                            string exeType = parameters[0];
-                            Command cmd = new Command();
-                            int type = 0;
-                            if (int.TryParse(exeType, out type))
+                            arg = app[1].Substring(0, app[1].Length - 1).Trim();
+                            string[] parameters = arg.Split(",".ToCharArray(), StringSplitOptions.RemoveEmptyEntries);
+                            if (parameters.Length > 0)
                             {
-                                if (type == 0)
+                                string exeType = parameters[0];
+                                Command cmd = new Command();
+                                int type = 0;
+                                if (int.TryParse(exeType, out type))
                                 {
-                                    if (parameters.Length > 2)
+                                    if (type == 0)
                                     {
-                                        string stop = parameters[2];
-                                        cmd.RunCmd(file + " " + stop);
+                                        if (parameters.Length > 2)
+                                        {
+                                            string stop = parameters[2];
+                                            cmd.RunCmd(file + " " + stop);
+                                        }
+                                        else
+                                        {
+                                            cmd.RunCmd(file);
+                                        }
                                     }
                                     else
                                     {
-                                        cmd.RunCmd(file);
-                                    }
-                                }
-                                else
-                                {
-                                    if (parameters.Length > 2)
-                                    {
-                                        string stop = parameters[2];
-                                        cmd.RunProgram(file, stop);
-                                    }
-                                    else
-                                    {
-                                        //cmd.RunProgram(file);如果没有停止参数，这里就不应该再次启动该程序
+                                        if (parameters.Length > 2)
+                                        {
+                                            string stop = parameters[2];
+                                            cmd.RunProgram(file, stop);
+                                            if (cmd.THR != null && cmd.THR.ThreadState != System.Threading.ThreadState.Aborted)
+                                            {
+                                                cmd.THR.Abort();
+                                            }
+                                        }
+                                        else
+                                        {
+                                            //cmd.RunProgram(file);如果没有停止参数，这里就不应该再次启动该程序，紧急情况下需要退出程序，请修改服务目录下的EmergencyStop.txt文件中的第一行数字为1，默认为0
+                                        }
                                     }
                                 }
                             }

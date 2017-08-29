@@ -90,3 +90,334 @@
    logtoconsole = 
    assemblypath = F:\2017\ServiceShell\ServiceShell\bin\Debug\ServiceShell.exe
    logfile = F:\2017\ServiceShell\ServiceShell\bin\Debug\ServiceShell.InstallLog
+正在安装程序集“F:\2017\ServiceShell\ServiceShell\bin\Debug\ServiceShell.exe”。
+受影响的参数是:
+   logtoconsole = 
+   assemblypath = F:\2017\ServiceShell\ServiceShell\bin\Debug\ServiceShell.exe
+   logfile = F:\2017\ServiceShell\ServiceShell\bin\Debug\ServiceShell.InstallLog
+正在安装服务 ServiceShell...
+正在日志 Application 中创建 EventLog 源 ServiceShell...
+正在回滚程序集“F:\2017\ServiceShell\ServiceShell\bin\Debug\ServiceShell.exe”。
+受影响的参数是:
+   logtoconsole = 
+   assemblypath = F:\2017\ServiceShell\ServiceShell\bin\Debug\ServiceShell.exe
+   logfile = F:\2017\ServiceShell\ServiceShell\bin\Debug\ServiceShell.InstallLog
+正在将事件日志还原到源 ServiceShell 的前一状态。
+正在卸载程序集“F:\2017\ServiceShell\ServiceShell\bin\Debug\ServiceShell.exe”。
+受影响的参数是:
+   logtoconsole = 
+   assemblypath = F:\2017\ServiceShell\ServiceShell\bin\Debug\ServiceShell.exe
+   logfile = F:\2017\ServiceShell\ServiceShell\bin\Debug\ServiceShell.InstallLog
+正在移除 EventLog 源 ServiceShell。
+正在从系统中移除服务 ServiceShell...
+已成功地从系统中移除服务 ServiceShell。
+试图停止服务 ServiceShell。
+正在安装程序集“F:\2017\ServiceShell\ServiceShell\bin\Debug\ServiceShell.exe”。
+受影响的参数是:
+   logtoconsole = 
+   assemblypath = F:\2017\ServiceShell\ServiceShell\bin\Debug\ServiceShell.exe
+   logfile = F:\2017\ServiceShell\ServiceShell\bin\Debug\ServiceShell.InstallLog
+正在安装服务 ServiceShell...
+已成功安装服务 ServiceShell。
+正在日志 Application 中创建 EventLog 源 ServiceShell...
+正在提交程序集“F:\2017\ServiceShell\ServiceShell\bin\Debug\ServiceShell.exe”。
+受影响的参数是:
+   logtoconsole = 
+   assemblypath = F:\2017\ServiceShell\ServiceShell\bin\Debug\ServiceShell.exe
+   logfile = F:\2017\ServiceShell\ServiceShell\bin\Debug\ServiceShell.InstallLog
+正在卸载程序集“F:\2017\ServiceShell\ServiceShell\bin\Debug\ServiceShell.exe”。
+受影响的参数是:
+   logtoconsole = 
+   assemblypath = F:\2017\ServiceShell\ServiceShell\bin\Debug\ServiceShell.exe
+   logfile = F:\2017\ServiceShell\ServiceShell\bin\Debug\ServiceShell.InstallLog
+正在移除 EventLog 源 ServiceShell。
+正在从系统中移除服务 ServiceShell...
+已成功地从系统中移除服务 ServiceShell。
+试图停止服务 ServiceShell。
+正在安装程序集“F:\2017\ServiceShell\ServiceShell\bin\Debug\ServiceShell.exe”。
+受影响的参数是:
+   logtoconsole = 
+   assemblypath = F:\2017\ServiceShell\ServiceShell\bin\Debug\ServiceShell.exe
+   logfile = F:\2017\ServiceShell\ServiceShell\bin\Debug\ServiceShell.InstallLog
+正在安装服务 ServiceShell...
+已成功安装服务 ServiceShell。
+正在日志 Application 中创建 EventLog 源 ServiceShell...
+正在提交程序集“F:\2017\ServiceShell\ServiceShell\bin\Debug\ServiceShell.exe”。
+受影响的参数是:
+   logtoconsole = 
+   assemblypath = F:\2017\ServiceShell\ServiceShell\bin\Debug\ServiceShell.exe
+   logfile = F:\2017\ServiceShell\ServiceShell\bin\Debug\ServiceShell.InstallLog
+正在卸载程序集“F:\2017\ServiceShell\ServiceShell\bin\Debug\ServiceShell.exe”。
+受影响的参数是:
+   logtoconsole = 
+   assemblypath = F:\2017\ServiceShell\ServiceShell\bin\Debug\ServiceShell.exe
+   logfile = F:\2017\ServiceShell\ServiceShell\bin\Debug\ServiceShell.InstallLog
+正在移除 EventLog 源 ServiceShell。
+正在从系统中移除服务 ServiceShell...
+已成功地从系统中移除服务 ServiceShell。
+试图停止服务 ServiceShell。
+正在安装程序集“F:\2017\ServiceShell\ServiceShell\bin\Debug\ServiceShell.exe”。
+受影响的参数是:
+   logtoconsole = 
+   assemblypath = F:\2017\ServiceShell\ServiceShell\bin\Debug\ServiceShell.exe
+   logfile = F:\2017\ServiceShell\ServiceShell\bin\Debug\ServiceShell.InstallLog
+正在安装服务 ServiceShell...
+已成功安装服务 ServiceShell。
+正在日志 Application 中创建 EventLog 源 ServiceShell...
+正在提交程序集“F:\2017\ServiceShell\ServiceShell\bin\Debug\ServiceShell.exe”。
+受影响的参数是:
+   logtoconsole = 
+   assemblypath = F:\2017\ServiceShell\ServiceShell\bin\Debug\ServiceShell.exe
+   logfile = F:\2017\ServiceShell\ServiceShell\bin\Debug\ServiceShell.InstallLog
+正在卸载程序集“F:\2017\ServiceShell\ServiceShell\bin\Debug\ServiceShell.exe”。
+受影响的参数是:
+   logtoconsole = 
+   assemblypath = F:\2017\ServiceShell\ServiceShell\bin\Debug\ServiceShell.exe
+   logfile = F:\2017\ServiceShell\ServiceShell\bin\Debug\ServiceShell.InstallLog
+正在移除 EventLog 源 ServiceShell。
+正在从系统中移除服务 ServiceShell...
+已成功地从系统中移除服务 ServiceShell。
+试图停止服务 ServiceShell。
+正在安装程序集“F:\2017\ServiceShell\ServiceShell\bin\Debug\ServiceShell.exe”。
+受影响的参数是:
+   logtoconsole = 
+   assemblypath = F:\2017\ServiceShell\ServiceShell\bin\Debug\ServiceShell.exe
+   logfile = F:\2017\ServiceShell\ServiceShell\bin\Debug\ServiceShell.InstallLog
+正在安装服务 ServiceShell...
+已成功安装服务 ServiceShell。
+正在日志 Application 中创建 EventLog 源 ServiceShell...
+正在提交程序集“F:\2017\ServiceShell\ServiceShell\bin\Debug\ServiceShell.exe”。
+受影响的参数是:
+   logtoconsole = 
+   assemblypath = F:\2017\ServiceShell\ServiceShell\bin\Debug\ServiceShell.exe
+   logfile = F:\2017\ServiceShell\ServiceShell\bin\Debug\ServiceShell.InstallLog
+正在卸载程序集“F:\2017\ServiceShell\ServiceShell\bin\Debug\ServiceShell.exe”。
+受影响的参数是:
+   logtoconsole = 
+   assemblypath = F:\2017\ServiceShell\ServiceShell\bin\Debug\ServiceShell.exe
+   logfile = F:\2017\ServiceShell\ServiceShell\bin\Debug\ServiceShell.InstallLog
+正在移除 EventLog 源 ServiceShell。
+正在从系统中移除服务 ServiceShell...
+已成功地从系统中移除服务 ServiceShell。
+试图停止服务 ServiceShell。
+正在安装程序集“F:\2017\ServiceShell\ServiceShell\bin\Debug\ServiceShell.exe”。
+受影响的参数是:
+   logtoconsole = 
+   assemblypath = F:\2017\ServiceShell\ServiceShell\bin\Debug\ServiceShell.exe
+   logfile = F:\2017\ServiceShell\ServiceShell\bin\Debug\ServiceShell.InstallLog
+正在安装服务 ServiceShell...
+已成功安装服务 ServiceShell。
+正在日志 Application 中创建 EventLog 源 ServiceShell...
+正在提交程序集“F:\2017\ServiceShell\ServiceShell\bin\Debug\ServiceShell.exe”。
+受影响的参数是:
+   logtoconsole = 
+   assemblypath = F:\2017\ServiceShell\ServiceShell\bin\Debug\ServiceShell.exe
+   logfile = F:\2017\ServiceShell\ServiceShell\bin\Debug\ServiceShell.InstallLog
+正在卸载程序集“F:\2017\ServiceShell\ServiceShell\bin\Debug\ServiceShell.exe”。
+受影响的参数是:
+   logtoconsole = 
+   assemblypath = F:\2017\ServiceShell\ServiceShell\bin\Debug\ServiceShell.exe
+   logfile = F:\2017\ServiceShell\ServiceShell\bin\Debug\ServiceShell.InstallLog
+正在移除 EventLog 源 ServiceShell。
+正在从系统中移除服务 ServiceShell...
+已成功地从系统中移除服务 ServiceShell。
+试图停止服务 ServiceShell。
+正在卸载程序集“F:\2017\ServiceShell\ServiceShell\bin\Debug\ServiceShell.exe”。
+受影响的参数是:
+   logtoconsole = 
+   assemblypath = F:\2017\ServiceShell\ServiceShell\bin\Debug\ServiceShell.exe
+   logfile = F:\2017\ServiceShell\ServiceShell\bin\Debug\ServiceShell.InstallLog
+正在移除 EventLog 源 ServiceShell。
+警告: 源 ServiceShell 未在本地计算机上注册。
+正在从系统中移除服务 ServiceShell...
+已成功地从系统中移除服务 ServiceShell。
+试图停止服务 ServiceShell。
+正在卸载程序集“F:\2017\ServiceShell\ServiceShell\bin\Debug\ServiceShell.exe”。
+受影响的参数是:
+   logtoconsole = 
+   assemblypath = F:\2017\ServiceShell\ServiceShell\bin\Debug\ServiceShell.exe
+   logfile = F:\2017\ServiceShell\ServiceShell\bin\Debug\ServiceShell.InstallLog
+正在移除 EventLog 源 ServiceShell。
+警告: 源 ServiceShell 未在本地计算机上注册。
+正在从系统中移除服务 ServiceShell...
+已成功地从系统中移除服务 ServiceShell。
+试图停止服务 ServiceShell。
+正在安装程序集“F:\2017\ServiceShell\ServiceShell\bin\Debug\ServiceShell.exe”。
+受影响的参数是:
+   logtoconsole = 
+   assemblypath = F:\2017\ServiceShell\ServiceShell\bin\Debug\ServiceShell.exe
+   logfile = F:\2017\ServiceShell\ServiceShell\bin\Debug\ServiceShell.InstallLog
+正在安装服务 ServiceShell...
+已成功安装服务 ServiceShell。
+正在日志 Application 中创建 EventLog 源 ServiceShell...
+正在提交程序集“F:\2017\ServiceShell\ServiceShell\bin\Debug\ServiceShell.exe”。
+受影响的参数是:
+   logtoconsole = 
+   assemblypath = F:\2017\ServiceShell\ServiceShell\bin\Debug\ServiceShell.exe
+   logfile = F:\2017\ServiceShell\ServiceShell\bin\Debug\ServiceShell.InstallLog
+正在安装程序集“F:\2017\ServiceShell\ServiceShell\bin\Debug\ServiceShell.exe”。
+受影响的参数是:
+   logtoconsole = 
+   assemblypath = F:\2017\ServiceShell\ServiceShell\bin\Debug\ServiceShell.exe
+   logfile = F:\2017\ServiceShell\ServiceShell\bin\Debug\ServiceShell.InstallLog
+正在安装服务 ServiceShell...
+正在日志 Application 中创建 EventLog 源 ServiceShell...
+正在回滚程序集“F:\2017\ServiceShell\ServiceShell\bin\Debug\ServiceShell.exe”。
+受影响的参数是:
+   logtoconsole = 
+   assemblypath = F:\2017\ServiceShell\ServiceShell\bin\Debug\ServiceShell.exe
+   logfile = F:\2017\ServiceShell\ServiceShell\bin\Debug\ServiceShell.InstallLog
+正在将事件日志还原到源 ServiceShell 的前一状态。
+正在安装程序集“F:\2017\ServiceShell\ServiceShell\bin\Debug\ServiceShell.exe”。
+受影响的参数是:
+   logtoconsole = 
+   assemblypath = F:\2017\ServiceShell\ServiceShell\bin\Debug\ServiceShell.exe
+   logfile = F:\2017\ServiceShell\ServiceShell\bin\Debug\ServiceShell.InstallLog
+正在安装服务 ServiceShell...
+正在日志 Application 中创建 EventLog 源 ServiceShell...
+正在回滚程序集“F:\2017\ServiceShell\ServiceShell\bin\Debug\ServiceShell.exe”。
+受影响的参数是:
+   logtoconsole = 
+   assemblypath = F:\2017\ServiceShell\ServiceShell\bin\Debug\ServiceShell.exe
+   logfile = F:\2017\ServiceShell\ServiceShell\bin\Debug\ServiceShell.InstallLog
+正在将事件日志还原到源 ServiceShell 的前一状态。
+正在安装程序集“F:\2017\ServiceShell\ServiceShell\bin\Debug\ServiceShell.exe”。
+受影响的参数是:
+   logtoconsole = 
+   assemblypath = F:\2017\ServiceShell\ServiceShell\bin\Debug\ServiceShell.exe
+   logfile = F:\2017\ServiceShell\ServiceShell\bin\Debug\ServiceShell.InstallLog
+正在安装服务 ServiceShell...
+正在日志 Application 中创建 EventLog 源 ServiceShell...
+正在回滚程序集“F:\2017\ServiceShell\ServiceShell\bin\Debug\ServiceShell.exe”。
+受影响的参数是:
+   logtoconsole = 
+   assemblypath = F:\2017\ServiceShell\ServiceShell\bin\Debug\ServiceShell.exe
+   logfile = F:\2017\ServiceShell\ServiceShell\bin\Debug\ServiceShell.InstallLog
+正在将事件日志还原到源 ServiceShell 的前一状态。
+正在卸载程序集“F:\2017\ServiceShell\ServiceShell\bin\Debug\ServiceShell.exe”。
+受影响的参数是:
+   logtoconsole = 
+   assemblypath = F:\2017\ServiceShell\ServiceShell\bin\Debug\ServiceShell.exe
+   logfile = F:\2017\ServiceShell\ServiceShell\bin\Debug\ServiceShell.InstallLog
+正在移除 EventLog 源 ServiceShell。
+正在从系统中移除服务 ServiceShell...
+已成功地从系统中移除服务 ServiceShell。
+正在安装程序集“F:\2017\ServiceShell\ServiceShell\bin\Debug\ServiceShell.exe”。
+受影响的参数是:
+   logtoconsole = 
+   assemblypath = F:\2017\ServiceShell\ServiceShell\bin\Debug\ServiceShell.exe
+   logfile = F:\2017\ServiceShell\ServiceShell\bin\Debug\ServiceShell.InstallLog
+正在安装服务 ServiceShell...
+已成功安装服务 ServiceShell。
+正在日志 Application 中创建 EventLog 源 ServiceShell...
+正在提交程序集“F:\2017\ServiceShell\ServiceShell\bin\Debug\ServiceShell.exe”。
+受影响的参数是:
+   logtoconsole = 
+   assemblypath = F:\2017\ServiceShell\ServiceShell\bin\Debug\ServiceShell.exe
+   logfile = F:\2017\ServiceShell\ServiceShell\bin\Debug\ServiceShell.InstallLog
+正在卸载程序集“F:\2017\ServiceShell\ServiceShell\bin\Debug\ServiceShell.exe”。
+受影响的参数是:
+   logtoconsole = 
+   assemblypath = F:\2017\ServiceShell\ServiceShell\bin\Debug\ServiceShell.exe
+   logfile = F:\2017\ServiceShell\ServiceShell\bin\Debug\ServiceShell.InstallLog
+正在移除 EventLog 源 ServiceShell。
+正在从系统中移除服务 ServiceShell...
+已成功地从系统中移除服务 ServiceShell。
+正在安装程序集“F:\2017\ServiceShell\ServiceShell\bin\Debug\ServiceShell.exe”。
+受影响的参数是:
+   logtoconsole = 
+   assemblypath = F:\2017\ServiceShell\ServiceShell\bin\Debug\ServiceShell.exe
+   logfile = F:\2017\ServiceShell\ServiceShell\bin\Debug\ServiceShell.InstallLog
+正在安装服务 ServiceShell...
+已成功安装服务 ServiceShell。
+正在日志 Application 中创建 EventLog 源 ServiceShell...
+正在提交程序集“F:\2017\ServiceShell\ServiceShell\bin\Debug\ServiceShell.exe”。
+受影响的参数是:
+   logtoconsole = 
+   assemblypath = F:\2017\ServiceShell\ServiceShell\bin\Debug\ServiceShell.exe
+   logfile = F:\2017\ServiceShell\ServiceShell\bin\Debug\ServiceShell.InstallLog
+正在卸载程序集“F:\2017\ServiceShell\ServiceShell\bin\Debug\ServiceShell.exe”。
+受影响的参数是:
+   logtoconsole = 
+   assemblypath = F:\2017\ServiceShell\ServiceShell\bin\Debug\ServiceShell.exe
+   logfile = F:\2017\ServiceShell\ServiceShell\bin\Debug\ServiceShell.InstallLog
+正在移除 EventLog 源 ServiceShell。
+正在从系统中移除服务 ServiceShell...
+已成功地从系统中移除服务 ServiceShell。
+正在安装程序集“F:\2017\ServiceShell\ServiceShell\bin\Debug\ServiceShell.exe”。
+受影响的参数是:
+   logtoconsole = 
+   assemblypath = F:\2017\ServiceShell\ServiceShell\bin\Debug\ServiceShell.exe
+   logfile = F:\2017\ServiceShell\ServiceShell\bin\Debug\ServiceShell.InstallLog
+正在安装服务 ServiceShell...
+已成功安装服务 ServiceShell。
+正在日志 Application 中创建 EventLog 源 ServiceShell...
+正在提交程序集“F:\2017\ServiceShell\ServiceShell\bin\Debug\ServiceShell.exe”。
+受影响的参数是:
+   logtoconsole = 
+   assemblypath = F:\2017\ServiceShell\ServiceShell\bin\Debug\ServiceShell.exe
+   logfile = F:\2017\ServiceShell\ServiceShell\bin\Debug\ServiceShell.InstallLog
+正在卸载程序集“F:\2017\ServiceShell\ServiceShell\bin\Debug\ServiceShell.exe”。
+受影响的参数是:
+   logtoconsole = 
+   assemblypath = F:\2017\ServiceShell\ServiceShell\bin\Debug\ServiceShell.exe
+   logfile = F:\2017\ServiceShell\ServiceShell\bin\Debug\ServiceShell.InstallLog
+正在移除 EventLog 源 ServiceShell。
+正在从系统中移除服务 ServiceShell...
+已成功地从系统中移除服务 ServiceShell。
+正在安装程序集“F:\2017\ServiceShell\ServiceShell\bin\Debug\ServiceShell.exe”。
+受影响的参数是:
+   logtoconsole = 
+   assemblypath = F:\2017\ServiceShell\ServiceShell\bin\Debug\ServiceShell.exe
+   logfile = F:\2017\ServiceShell\ServiceShell\bin\Debug\ServiceShell.InstallLog
+正在安装服务 ServiceShell...
+已成功安装服务 ServiceShell。
+正在日志 Application 中创建 EventLog 源 ServiceShell...
+正在提交程序集“F:\2017\ServiceShell\ServiceShell\bin\Debug\ServiceShell.exe”。
+受影响的参数是:
+   logtoconsole = 
+   assemblypath = F:\2017\ServiceShell\ServiceShell\bin\Debug\ServiceShell.exe
+   logfile = F:\2017\ServiceShell\ServiceShell\bin\Debug\ServiceShell.InstallLog
+正在卸载程序集“F:\2017\ServiceShell\ServiceShell\bin\Debug\ServiceShell.exe”。
+受影响的参数是:
+   logtoconsole = 
+   assemblypath = F:\2017\ServiceShell\ServiceShell\bin\Debug\ServiceShell.exe
+   logfile = F:\2017\ServiceShell\ServiceShell\bin\Debug\ServiceShell.InstallLog
+正在移除 EventLog 源 ServiceShell。
+正在从系统中移除服务 ServiceShell...
+已成功地从系统中移除服务 ServiceShell。
+正在安装程序集“F:\2017\ServiceShell\ServiceShell\bin\Debug\ServiceShell.exe”。
+受影响的参数是:
+   logtoconsole = 
+   assemblypath = F:\2017\ServiceShell\ServiceShell\bin\Debug\ServiceShell.exe
+   logfile = F:\2017\ServiceShell\ServiceShell\bin\Debug\ServiceShell.InstallLog
+正在安装服务 ServiceShell...
+已成功安装服务 ServiceShell。
+正在日志 Application 中创建 EventLog 源 ServiceShell...
+正在提交程序集“F:\2017\ServiceShell\ServiceShell\bin\Debug\ServiceShell.exe”。
+受影响的参数是:
+   logtoconsole = 
+   assemblypath = F:\2017\ServiceShell\ServiceShell\bin\Debug\ServiceShell.exe
+   logfile = F:\2017\ServiceShell\ServiceShell\bin\Debug\ServiceShell.InstallLog
+正在卸载程序集“F:\2017\ServiceShell\ServiceShell\bin\Debug\ServiceShell.exe”。
+受影响的参数是:
+   logtoconsole = 
+   assemblypath = F:\2017\ServiceShell\ServiceShell\bin\Debug\ServiceShell.exe
+   logfile = F:\2017\ServiceShell\ServiceShell\bin\Debug\ServiceShell.InstallLog
+正在移除 EventLog 源 ServiceShell。
+正在从系统中移除服务 ServiceShell...
+已成功地从系统中移除服务 ServiceShell。
+试图停止服务 ServiceShell。
+正在安装程序集“F:\2017\ServiceShell\ServiceShell\bin\Debug\ServiceShell.exe”。
+受影响的参数是:
+   logtoconsole = 
+   assemblypath = F:\2017\ServiceShell\ServiceShell\bin\Debug\ServiceShell.exe
+   logfile = F:\2017\ServiceShell\ServiceShell\bin\Debug\ServiceShell.InstallLog
+正在安装服务 ServiceShell...
+正在日志 Application 中创建 EventLog 源 ServiceShell...
+正在回滚程序集“F:\2017\ServiceShell\ServiceShell\bin\Debug\ServiceShell.exe”。
+受影响的参数是:
+   logtoconsole = 
+   assemblypath = F:\2017\ServiceShell\ServiceShell\bin\Debug\ServiceShell.exe
+   logfile = F:\2017\ServiceShell\ServiceShell\bin\Debug\ServiceShell.InstallLog
+正在将事件日志还原到源 ServiceShell 的前一状态。

@@ -32,6 +32,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Cjwdev.WindowsApi">
+      <HintPath>..\Cjwdev.WindowsApi.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.configuration" />
     <Reference Include="System.Configuration.Install" />
@@ -67,6 +70,9 @@
     <None Include="App.config" />
     <None Include="卸载.bat" />
     <None Include="安装.bat" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="EmergencyStop.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

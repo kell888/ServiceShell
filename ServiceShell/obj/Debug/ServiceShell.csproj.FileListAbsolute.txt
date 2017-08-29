@@ -5,3 +5,4 @@ F:\2017\ServiceShell\ServiceShell\obj\Debug\ServiceShell.ProjectInstaller.resour
 F:\2017\ServiceShell\ServiceShell\obj\Debug\ServiceShell.csproj.GenerateResource.Cache
 F:\2017\ServiceShell\ServiceShell\obj\Debug\ServiceShell.exe
 F:\2017\ServiceShell\ServiceShell\obj\Debug\ServiceShell.pdb
+F:\2017\ServiceShell\ServiceShell\bin\Debug\Cjwdev.WindowsApi.dll
