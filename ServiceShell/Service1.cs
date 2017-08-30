@@ -19,6 +19,8 @@ namespace ServiceShell
         protected override void OnStart(string[] args)
         {
             Logs.Log("", "ServiceShell Start...");
+            string dir = System.AppDomain.CurrentDomain.BaseDirectory;// System.IO.Directory.GetParent(System.Diagnostics.Process.GetCurrentProcess().MainModule.FileName).FullName + "\\";
+            System.IO.File.WriteAllText(dir + "EmergencyStop.txt", "0", Encoding.UTF8);//初始化紧急结束程序的标志位
             try
             {
                 string apps = ConfigurationManager.AppSettings["apps"];
@@ -135,14 +137,17 @@ namespace ServiceShell
                                         {
                                             string stop = parameters[2];
                                             cmd.RunProgram(file, stop);
-                                            if (cmd.THR != null && cmd.THR.ThreadState != System.Threading.ThreadState.Aborted)
-                                            {
-                                                cmd.THR.Abort();
-                                            }
                                         }
                                         else
                                         {
-                                            //cmd.RunProgram(file);如果没有停止参数，这里就不应该再次启动该程序，紧急情况下需要退出程序，请修改服务目录下的EmergencyStop.txt文件中的第一行数字为1，默认为0
+                                            //cmd.RunProgram(file);如果没有停止参数，这里就不应该再次启动该程序，停止服务前想要紧急情况下需要退出程序，请修改服务目录下的EmergencyStop.txt文件中的第一行数字为1，默认为0，如下所示：
+                                            string dir = System.AppDomain.CurrentDomain.BaseDirectory;// System.IO.Directory.GetParent(System.Diagnostics.Process.GetCurrentProcess().MainModule.FileName).FullName + "\\";
+                                            System.IO.File.WriteAllText(dir + "EmergencyStop.txt", "1", Encoding.UTF8);
+                                            System.Threading.Thread.Sleep(1000);//等待1秒钟，让线程自动结束程序
+                                        }
+                                        if (cmd.THR != null && cmd.THR.ThreadState != System.Threading.ThreadState.Aborted)
+                                        {
+                                            cmd.THR.Abort();
                                         }
                                     }
                                 }

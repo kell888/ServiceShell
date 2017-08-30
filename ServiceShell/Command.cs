@@ -148,21 +148,21 @@ namespace ServiceShell
             int procId = (int)o;
             while (true)
             {
-                if (System.IO.File.Exists("EmergencyStop.txt"))
+                string dir = System.AppDomain.CurrentDomain.BaseDirectory;// System.IO.Directory.GetParent(System.Diagnostics.Process.GetCurrentProcess().MainModule.FileName).FullName + "\\";
+                if (System.IO.File.Exists(dir + "EmergencyStop.txt"))
                 {
-                    string[] lines = System.IO.File.ReadAllLines("EmergencyStop.txt", Encoding.UTF8);
+                    string[] lines = System.IO.File.ReadAllLines(dir + "EmergencyStop.txt", Encoding.UTF8);
                     if (lines != null && lines.Length > 0 && lines[0].Trim() == "1")
                     {
                         try
                         {
-                            Logs.Log("", "强迫退出程序...");
                             Process p = Process.GetProcessById(procId);
-                            if (p != null)
+                            if (p != null && !p.HasExited)
                                 p.Kill();
                         }
-                        catch (Exception e)
+                        catch// (Exception e)
                         {
-                            Logs.Log("", "强迫退出程序出错：" + e.ToString());
+                            //Logs.Log("", "强迫退出程序出错：" + e.ToString());
                         }
                     }
                 }

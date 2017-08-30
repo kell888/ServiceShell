@@ -6,3 +6,4 @@ F:\2017\ServiceShell\ServiceShell\obj\Debug\ServiceShell.csproj.GenerateResource
 F:\2017\ServiceShell\ServiceShell\obj\Debug\ServiceShell.exe
 F:\2017\ServiceShell\ServiceShell\obj\Debug\ServiceShell.pdb
 F:\2017\ServiceShell\ServiceShell\bin\Debug\Cjwdev.WindowsApi.dll
+F:\2017\ServiceShell\ServiceShell\obj\Debug\ServiceShell.csprojResolveAssemblyReference.cache
